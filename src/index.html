@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiriri Women’s University</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>This is My University Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('about')">About Us</a></li>
+                <li><a href="#" onclick="showSection('departments')">Departments</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="admin-block-image-link" alt="Kiriri University Administration Block">
+        <p>Kiriri Women’s University is a leading institution dedicated to academic excellence.</p>
+    </section>
+
+    <section id="about" style="display: none;">
+        <p>Kiriri Women’s University is a leading institution dedicated to academic excellence.</p>
+    </section>
+
+    <section id="departments" style="display: none;">
+        <ol>
+            <li>Computer Science</li>
+            <li>Mathematics</li>
+            <li>Business</li>
+            <li>Education</li>
+            <li>Hospitality</li>
+            <li>Information Technology</li>
+        </ol>
+    </section>
+
+    <section id="contact" style="display: none;">
+        <p>Address: Kiriri, Nairobi, Kenya</p>
+        <p>Email: info@kiriri.ac.ke</p>
+        <p>Phone: +254-123-456-789</p>
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
